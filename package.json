@@ -1,0 +1,63 @@
+{
+  "name": "ves",
+  "version": "1.0.0",
+  "description": "The Vue Isomorphic Node Framework",
+  "dependencies": {
+    "axios": "^0.17.1",
+    "easywebpack-vue": "next",
+    "egg": "^2.3.0",
+    "egg-logview": "^1.0.0",
+    "egg-view-vue-ssr": "^3.0.5",
+    "egg-webpack": "^4.4.0-rc.4",
+    "egg-webpack-vue": "^2.0.0",
+    "vue": "^2.5.0",
+    "vue-router": "^3.0.1",
+    "vuex": "^3.0.1",
+    "vuex-router-sync": "^5.0.0"
+  },
+  "devDependencies": {
+    "autod": "^3.0.1",
+    "autod-egg": "^1.0.0",
+    "egg-bin": "^4.4.0",
+    "egg-ci": "^1.8.0",
+    "egg-mock": "^3.14.0",
+    "eslint": "^4.18.0",
+    "eslint-config-egg": "^7.0.0",
+    "webstorm-disable-index": "^1.2.0"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "scripts": {
+    "test": "npm run lint -- --fix && egg-bin pkgfiles && npm run test-local",
+    "test-local": "egg-bin test",
+    "cov": "egg-bin cov",
+    "lint": "eslint .",
+    "ci": "npm run lint && egg-bin pkgfiles --check && npm run cov",
+    "autod": "autod",
+    "pkgfiles": "egg-bin pkgfiles"
+  },
+  "ci": {
+    "version": "8, 10"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "egg",
+    "egg-framework"
+  ],
+  "author": "sky",
+  "files": [
+    "app",
+    "config",
+    "lib",
+    "index.js"
+  ],
+  "eslintIgnore": [
+    "coverage",
+    "dist"
+  ],
+  "license": "MIT"
+}
