@@ -20,7 +20,7 @@
 [download-image]: https://img.shields.io/npm/dm/ves.svg?style=flat-square
 [download-url]: https://npmjs.org/package/ves
 
-The Vue Isomorphic Node Framework
+The Vue Isomorphic Node Framework.
 
 ## Features
 
