@@ -1,7 +1,7 @@
 {
   "name": "ves",
   "version": "0.0.1",
-  "description": "The Vue Isomorphic Node Framework",
+  "description": "A Powerful, Simple Vue Node Isomorphic Framework",
   "dependencies": {
     "axios": "^0.17.1",
     "egg": "^2.3.0",
@@ -15,8 +15,7 @@
     "vuex": "^3.0.1",
     "vuex-router-sync": "^5.0.0"
   },
-  "peerDependencies": {
-  },
+  "peerDependencies": {},
   "devDependencies": {
     "autod": "^3.0.1",
     "autod-egg": "^1.0.0",
@@ -52,10 +51,10 @@
   ],
   "author": "sky",
   "files": [
-    "app",
-    "config",
+    "index.js",
     "lib",
-    "index.js"
+    "app",
+    "config"
   ],
   "eslintIgnore": [
     "coverage",

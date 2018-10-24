@@ -9,28 +9,59 @@
 
 [npm-image]: https://img.shields.io/npm/v/ves.svg?style=flat-square
 [npm-url]: https://npmjs.org/package/ves
-[travis-image]: https://img.shields.io/travis/hubcarl/ves.svg?style=flat-square
-[travis-url]: https://travis-ci.org/hubcarl/ves
-[codecov-image]: https://img.shields.io/codecov/c/github/hubcarl/ves.svg?style=flat-square
-[codecov-url]: https://codecov.io/github/hubcarl/ves?branch=master
-[david-image]: https://img.shields.io/david/hubcarl/ves.svg?style=flat-square
-[david-url]: https://david-dm.org/hubcarl/ves
+[travis-image]: https://img.shields.io/travis/ves-team/ves.svg?style=flat-square
+[travis-url]: https://travis-ci.org/ves-team/ves
+[codecov-image]: https://img.shields.io/codecov/c/github/ves-team/ves.svg?style=flat-square
+[codecov-url]: https://codecov.io/github/ves-team/ves?branch=master
+[david-image]: https://img.shields.io/david/ves-team/ves.svg?style=flat-square
+[david-url]: https://david-dm.org/ves-team/ves
 [snyk-image]: https://snyk.io/test/npm/ves/badge.svg?style=flat-square
 [snyk-url]: https://snyk.io/test/npm/ves
 [download-image]: https://img.shields.io/npm/dm/ves.svg?style=flat-square
 [download-url]: https://npmjs.org/package/ves
 
-The Vue Isomorphic Node Framework
+A Powerful, Simple Vue Node Isomorphic Framework, Everything is Simple!
+
+> You don't need to care about Vue server-side rendering implementation details and the Webpack + Babel +Babel + TypeScript build process. You just need to write Vue isomorphic applications just like you would write a Vue front-end application.
+
+## Installation
+
+```bash
+$ npm install ves --save
+```
+
+Node.js >= 8.0.0 required.
 
 ## Features
 
+- ✔︎ Based on [Egg](https://eggjs.org/en/intro/index.html) Framework, Powerful, Easy to Expand
+- ✔︎ Support Vue Server Side Render and Client Side Render Two Rendering Modes, Rendering Cache, Automatic Downgrade, 
+- ✔︎ Front-End and Node of The Application are Written in TypeScript
+- ✔︎ Build with Webpack + TypeScript, Auto Building, Hot Reload, Code Splitting, High Speed, Performance Optimization
+- ✔︎ Powerful Tool Chain [ves-cli](https://github.com/easy-team/ves-cli)
+
 ## Document
+
+- https://www.yuque.com/easy-team/ves
 
 ## QuickStart
 
+```bash
+$ npm install -g ves-cli
+$ ves init
+$ npm install
+$ npm run dev
+$ open http://localhost:7001
+```
+
 ## Examples
 
+See [ves-amdin](https://github.com/easy-team/ves-admin)
+
 ## Links
+
+- https://eggjs.org/en/advanced/framework.html
+- https://www.yuque.com/easy-team/ves
 
 ## Contributors
 
