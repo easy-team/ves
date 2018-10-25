@@ -9,12 +9,12 @@
 
 [npm-image]: https://img.shields.io/npm/v/ves.svg?style=flat-square
 [npm-url]: https://npmjs.org/package/ves
-[travis-image]: https://img.shields.io/travis/ves-team/ves.svg?style=flat-square
-[travis-url]: https://travis-ci.org/ves-team/ves
-[codecov-image]: https://img.shields.io/codecov/c/github/ves-team/ves.svg?style=flat-square
-[codecov-url]: https://codecov.io/github/ves-team/ves?branch=master
-[david-image]: https://img.shields.io/david/ves-team/ves.svg?style=flat-square
-[david-url]: https://david-dm.org/ves-team/ves
+[travis-image]: https://img.shields.io/travis/easy-team/ves.svg?style=flat-square
+[travis-url]: https://travis-ci.org/easy-team/ves
+[codecov-image]: https://img.shields.io/codecov/c/github/easy-team/ves.svg?style=flat-square
+[codecov-url]: https://codecov.io/github/easy-team/ves?branch=master
+[david-image]: https://img.shields.io/david/easy-team/ves.svg?style=flat-square
+[david-url]: https://david-dm.org/easy-team/ves
 [snyk-image]: https://snyk.io/test/npm/ves/badge.svg?style=flat-square
 [snyk-url]: https://snyk.io/test/npm/ves
 [download-image]: https://img.shields.io/npm/dm/ves.svg?style=flat-square
