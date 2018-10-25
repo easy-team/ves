@@ -23,7 +23,7 @@
 
 A Powerful, Simple Vue Node Isomorphic Framework, Everything is Simple!
 
-> You don't need to care about Vue server-side rendering implementation details and the Webpack + Babel +Babel + TypeScript build process. You just need to write Vue isomorphic applications just like you would write a Vue front-end application.
+> You don't need to care about Vue server-side rendering implementation details and the Webpack + Babel + TypeScript build process. You just need to write Vue isomorphic applications just like you would write a Vue front-end application.
 
 ## Installation
 
