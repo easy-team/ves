@@ -1,0 +1,16 @@
+{
+  "extends": "../../config/tsconfig.json",
+  "compilerOptions": {
+    "target": "es5",      
+    "module": "esnext",
+    "lib": [
+      "es6",
+      "dom"
+    ]
+  },
+ 
+  "exclude": [
+    "node_modules",
+    "**/*.spec.ts"
+  ]
+}

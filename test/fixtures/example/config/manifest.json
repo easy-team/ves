@@ -1,0 +1,21 @@
+{
+  "home/home.css": "/public/css/0.03cd5845.css",
+  "home/home.js": "/public/js/chunk/home/home.cd531b5c.js",
+  "runtime.js": "/public/js/runtime.49eef78a.js",
+  "deps": {
+    "home/home.js": {
+      "js": [
+        "/public/js/runtime.49eef78a.js",
+        "/public/js/chunk/home/home.cd531b5c.js"
+      ],
+      "css": [
+        "/public/css/0.03cd5845.css"
+      ]
+    }
+  },
+  "info": {
+    "publicPath": "/public/",
+    "buildPath": "public",
+    "mapped": true
+  }
+}
