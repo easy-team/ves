@@ -35,7 +35,7 @@ Node.js >= 8.0.0 required.
 ## Features
 
 - ✔︎ Based on [Egg](https://eggjs.org/en/intro/index.html) Framework, Powerful, Easy to Expand
-- ✔︎ Support Vue Server Side Render and Client Side Render Two Rendering Modes, Rendering Cache, Automatic Downgrade, 
+- ✔︎ Support Vue Server Side Render and Client Side Render Modes, Rendering Cache, Automatic Downgrade, 
 - ✔︎ Front-End and Node of The Application are Written in TypeScript
 - ✔︎ Build with Webpack + TypeScript, Auto Building, Hot Reload, Code Splitting, High Speed, Performance Optimization
 - ✔︎ Powerful Tool Chain [ves-cli](https://github.com/easy-team/ves-cli)
