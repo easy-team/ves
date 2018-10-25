@@ -62,7 +62,8 @@
     "lib",
     "app",
     "config",
-    "app.js"
+    "app.js",
+    "index.d.ts"
   ],
   "eslintIgnore": [
     "coverage",
