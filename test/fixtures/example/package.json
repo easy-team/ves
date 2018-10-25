@@ -1,4 +1,22 @@
 {
   "name": "framework-example",
-  "version": "1.0.0"
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "egg-bin dev",
+    "start": "egg-scripts start"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "axios": "^0.17.1",
+    "egg": "^2.3.0",
+    "egg-scripts": "^2.10.0",
+    "egg-cors": "^2.1.1",
+    "egg-webpack": "^4.4.7",
+    "egg-webpack-vue": "^2.0.0",
+    "egg-view-vue-ssr": "^3.0.5",
+    "vue": "^2.5.0",
+    "vue-router": "^3.0.1",
+    "vuex": "^3.0.1",
+    "vuex-router-sync": "^5.0.0"
+  }
 }

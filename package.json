@@ -1,6 +1,6 @@
 {
   "name": "ves",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "A Powerful, Simple Vue Node Isomorphic Framework",
   "dependencies": {
     "axios": "^0.17.1",
@@ -31,7 +31,7 @@
   },
   "scripts": {
     "test": "npm run lint -- --fix && egg-bin pkgfiles && npm run test-local",
-    "test-local": "egg-bin test",
+    "test-local": "egg-bin test --full-trace",
     "cov": "egg-bin cov",
     "lint": "eslint .",
     "ci": "npm run lint && egg-bin pkgfiles --check && npm run cov",
@@ -47,18 +47,27 @@
   },
   "keywords": [
     "egg",
-    "egg-framework"
+    "egg-framework",
+    "egg-webpack",
+    "ves",
+    "vue server render",
+    "vue-Isomorphic",
+    "vue-server-render"
   ],
   "author": "sky",
   "files": [
     "index.js",
     "lib",
     "app",
-    "config"
+    "config",
+    "app.js"
   ],
   "eslintIgnore": [
     "coverage",
-    "dist"
+    "dist",
+    "test/fixtures/example/node_modules",
+    "test/fixtures/example/public",
+    "test/fixtures/example/app/view"
   ],
   "license": "MIT"
 }

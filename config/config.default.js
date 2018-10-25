@@ -13,6 +13,11 @@ module.exports = appInfo => {
   };
 
   /**
+   * cookie secret key
+   */
+  config.keys = appInfo.name + '_123456';
+
+  /**
    * egg-static plugin
    * @member Config#static
    * @property {String} prefix - static file url visit prefix
