@@ -64,8 +64,6 @@ See [ves-amdin](https://github.com/easy-team/ves-admin)
 - https://eggjs.org/en/advanced/framework.html
 - https://www.yuque.com/easy-team/ves
 
-## Contributors
-
 ## License
 
 [MIT](LICENSE)
