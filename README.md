@@ -21,7 +21,7 @@
 [download-url]: https://npmjs.org/package/ves
 
 
-A Powerful, Simple Vue Node Isomorphic Framework, Everything is Simple!
+A Powerful, Simple Vue Node Isomorphic Framework, Front-End and Node of The Application are Written in TypeScript! Everything is Simple!
 
 > You don't need to care about Vue server-side rendering implementation details and the Webpack + Babel + TypeScript build process. You just need to write Vue isomorphic applications just like you would write a Vue front-end application.
 
