@@ -1,6 +1,6 @@
 {
   "name": "ves",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A Powerful, Simple Vue Node Isomorphic Framework",
   "dependencies": {
     "axios": "^0.17.1",
@@ -58,6 +58,7 @@
   ],
   "author": "sky",
   "files": [
+    "index.d.ts",
     "index.js",
     "lib",
     "app",
