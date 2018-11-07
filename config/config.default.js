@@ -18,17 +18,6 @@ module.exports = appInfo => {
   config.keys = appInfo.name + '_123456';
 
   /**
-   * egg-static plugin
-   * @member Config#static
-   * @property {String} prefix - static file url visit prefix
-   * @property {String} dir - static file dir
-   */
-  config.static = {
-    prefix: '/public/',
-    dir: path.join(appInfo.baseDir, 'public'),
-  };
-
-  /**
    * vue ssr plugin config
    * @member Config#vuessr
    * @property {String} layout - client render default html layout file path

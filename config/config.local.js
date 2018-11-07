@@ -1,6 +1,7 @@
 'use strict';
 const utils = require('../lib/utils');
 module.exports = app => {
+
   const exports = {};
 
   exports.view = {
