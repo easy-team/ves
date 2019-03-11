@@ -1,6 +1,6 @@
 {
   "name": "ves",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "A Powerful, Simple Vue Node Isomorphic Framework",
   "dependencies": {
     "axios": "^0.17.1",
