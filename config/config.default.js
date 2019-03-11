@@ -25,6 +25,7 @@ module.exports = appInfo => {
    */
   config.vuessr = {
     layout: path.resolve(__dirname, '../app/web/view/layout.html'),
+    injectCss: true,
     renderOptions: {
       basedir: path.join(appInfo.baseDir, 'app/view'),
     },
