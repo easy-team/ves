@@ -1,3 +1,7 @@
+## [1.0.1](https://github.com/ves-team/ves/compare/1.0.0...1.0.1) (2019-06-19)
+
+
+
 <a name="1.0.1"></a>
 ## [1.0.0](https://github.com/easy-team/ves/compare/0.3.0...1.0.0) (2019-03-11)
 
