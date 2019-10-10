@@ -1,3 +1,18 @@
+<a name="2.0.0-beta.2"></a>
+# [2.0.0-beta.2](https://github.com/ves-team/ves/compare/1.0.1...2.0.0-beta.2) (2019-10-10)
+
+
+### Bug Fixes
+
+* ves-cli name show ([2b70044](https://github.com/ves-team/ves/commit/2b70044))
+
+
+### Features
+
+* add nunjucks and perfermance config ([c9032eb](https://github.com/ves-team/ves/commit/c9032eb))
+
+
+
 ## [1.0.1](https://github.com/ves-team/ves/compare/1.0.0...1.0.1) (2019-06-19)
 
 
