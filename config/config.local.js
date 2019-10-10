@@ -23,7 +23,8 @@ module.exports = app => {
    * @property {Array} webpackConfigList - webpack config
    */
   exports.webpack = {
-    webpackConfigList: utils.getWebpackConfig(app),
+    cli: utils.getCli(),
+    webpackConfigList: utils.getWebpackConfig(app)
   };
 
   return exports;
