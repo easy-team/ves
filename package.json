@@ -1,6 +1,6 @@
 {
   "name": "ves",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "A Powerful, Simple Vue Node Isomorphic Framework",
   "dependencies": {
     "axios": "^0.18.1",
@@ -9,6 +9,7 @@
     "egg-cors": "^2.1.1",
     "egg-webpack": "^4.4.7",
     "egg-webpack-vue": "^2.0.0",
+    "egg-view-nunjucks": "^2.2.0",
     "egg-view-vue-ssr": "^3.0.5",
     "vue": "^2.5.0",
     "vue-router": "^3.0.1",
@@ -58,7 +59,6 @@
   ],
   "author": "sky",
   "files": [
-    "index.d.ts",
     "index.js",
     "lib",
     "app",

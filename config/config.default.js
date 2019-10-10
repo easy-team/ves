@@ -3,6 +3,13 @@ const path = require('path');
 module.exports = appInfo => {
   const config = {};
 
+  config.view = {
+    defaultViewEngine: 'nunjucks',
+    mapping: {
+      '.tpl': 'nunjucks',
+    },
+  };
+
   /**
    * some description
    * @member Config#test

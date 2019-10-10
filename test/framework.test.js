@@ -40,4 +40,23 @@ describe('test/framework.test.js', () => {
         assert(res.text.indexOf('<title>ves</title>') > -1);
       });
   });
+  it('should GET /renderAsset', () => {
+    return app.httpRequest()
+      .get('/renderAsset')
+      .expect(200)
+      .expect(res => {
+        assert(res.text.indexOf('<title>ves asset render</title>') > -1);
+        assert(res.text.indexOf('window.__INITIAL_STATE__ = {\"title\":\"ves asset render\",\"message\":\"ves asset client side render\"}') > -1);
+      });
+  });
+  it('should GET /renderNunjucks', () => {
+    return app.httpRequest()
+      .get('/renderNunjucks')
+      .expect(200)
+      .expect(res => {
+        assert(res.text.indexOf('<title>ves nunjucks render</title>') > -1);
+        assert(res.text.indexOf('<h1>ves nunjucks client side render</h1>') > -1);
+        assert(res.text.indexOf('window.__INITIAL_STATE__ = {\"engine\":\"nunjucks\"};') > -1);
+      });
+  });
 });
