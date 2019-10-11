@@ -1,3 +1,13 @@
+<a name="2.0.1"></a>
+## [2.0.1](https://github.com/ves-team/ves/compare/2.0.0...2.0.1) (2019-10-11)
+
+
+### Bug Fixes
+
+* missing bin dir ([d6f972d](https://github.com/ves-team/ves/commit/d6f972d))
+
+
+
 <a name="2.0.0-beta.3"></a>
 # [2.0.0-beta.3](https://github.com/ves-team/ves/compare/2.0.0-beta.2...2.0.0-beta.3) (2019-10-11)
 
