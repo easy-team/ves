@@ -1,3 +1,13 @@
+<a name="2.0.0-beta.3"></a>
+# [2.0.0-beta.3](https://github.com/ves-team/ves/compare/2.0.0-beta.2...2.0.0-beta.3) (2019-10-11)
+
+
+### Bug Fixes
+
+* fix when production mode, ves-cli not exists, start app error by ves start ([d619311](https://github.com/ves-team/ves/commit/d619311))
+
+
+
 <a name="2.0.0-beta.2"></a>
 # [2.0.0-beta.2](https://github.com/ves-team/ves/compare/1.0.1...2.0.0-beta.2) (2019-10-10)
 
