@@ -1,6 +1,6 @@
 {
   "name": "ves",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "A Powerful, Simple Vue Node Isomorphic Framework",
   "bin": {
     "ves": "bin/cli.js"
