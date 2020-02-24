@@ -1,3 +1,13 @@
+<a name="2.0.2"></a>
+## [2.0.2](https://github.com/ves-team/ves/compare/2.0.1...2.0.2) (2020-02-24)
+
+
+### Bug Fixes
+
+* npm run dev not run ([a2a3512](https://github.com/ves-team/ves/commit/a2a3512))
+
+
+
 <a name="2.0.1"></a>
 ## [2.0.1](https://github.com/ves-team/ves/compare/2.0.0...2.0.1) (2019-10-11)
 
